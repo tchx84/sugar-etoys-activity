@@ -1,0 +1,36 @@
+Source: sugar-jigsawpuzzle-activity
+Section: x11
+Priority: optional
+Maintainer: Debian OLPC <debian-olpc-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>, 
+ Ankur khurana <ankur@seeta.in>
+Build-Depends: devscripts (>= 2.10.7~),
+ cdbs (>= 0.4.67~),
+ dh-buildinfo,
+ python-central,
+ debhelper (>= 6),
+ cdbs (>= 0.4.67~),
+ python-dev (>= 2.3.5-7),
+ python-sugar-0.86 | python-sugar-0.88,
+ python-sugar-toolkit-0.86 | python-sugar-toolkit-0.88,
+ unzip
+Standards-Version: 3.9.0
+Vcs-Git: git://git.debian.org/collab-maint/sugar-jigsawpuzzle-activity.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/sugar-jigsawpuzzle-activity.git;a=summary
+Homepage: http://wiki.laptop.org/go/Jigsaw_Puzzle
+XS-Python-Version: all
+
+Package: sugar-jigsawpuzzle-activity
+Architecture: all
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-abiword
+Recommends: sugar
+Provides: ${python:Provides}
+XB-Python-Version: ${python:Versions}
+Description: Sugar Slider Puzzle Activity
+ Sugar is a graphical user interface aimed at children.
+ .
+ Sugar is mainly used as the interface for One Laptop Per Child (OLPC)
+ XO machines.
+ .
+ Jigsaw Puzzle is based on classic picture-constructing game.It strengthens visual, spacial and problem solving skills. 
+ .
