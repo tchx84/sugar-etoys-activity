@@ -1,4 +1,4 @@
-Source: sugar-jigsawpuzzle-activity
+Source: sugar-etoys-activity
 Section: x11
 Priority: optional
 Maintainer: Debian OLPC <debian-olpc-devel@lists.alioth.debian.org>
@@ -15,22 +15,22 @@ Build-Depends: devscripts (>= 2.10.7~),
  python-sugar-toolkit-0.86 | python-sugar-toolkit-0.88,
  unzip
 Standards-Version: 3.9.0
-Vcs-Git: git://git.debian.org/collab-maint/sugar-jigsawpuzzle-activity.git
-Vcs-Browser: http://git.debian.org/?p=collab-maint/sugar-jigsawpuzzle-activity.git;a=summary
-Homepage: http://wiki.laptop.org/go/Jigsaw_Puzzle
+Vcs-Git: git://git.debian.org/collab-maint/sugar-etoys-activity.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/sugar-etoys-activity.git;a=summary
+Homepage: http://wiki.laptop.org/go/Etoys
 XS-Python-Version: all
 
-Package: sugar-jigsawpuzzle-activity
+Package: sugar-etoys-activity
 Architecture: all
-Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-abiword
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}
 Recommends: sugar
 Provides: ${python:Provides}
 XB-Python-Version: ${python:Versions}
-Description: Sugar Slider Puzzle Activity
+Description: Sugar Etoys Activity
  Sugar is a graphical user interface aimed at children.
  .
  Sugar is mainly used as the interface for One Laptop Per Child (OLPC)
  XO machines.
  .
- Jigsaw Puzzle is based on classic picture-constructing game.It strengthens visual, spacial and problem solving skills. 
+ Etoys is a media-rich authoring environment with a simple, powerful scripted object model for many kinds of objects.
  .
