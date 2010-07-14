@@ -1,0 +1,15 @@
+a75c821ae38b0394344dc7853015e945  usr/share/doc/sugar-etoys-activity/copyright
+86128285b4b060953c29b85d09885bda  usr/share/doc/sugar-etoys-activity/buildinfo.gz
+cdef8cd8dc3a9a845d7ab6456be97811  usr/share/doc/sugar-etoys-activity/NEWS.gz
+5b2e1221e622ec8b58868f2c0afd854c  usr/share/doc/sugar-etoys-activity/changelog.Debian.gz
+42c228537c62c831c31cdf5f6fb8f97e  usr/share/pyshared-data/sugar-etoys-activity
+bdd0578ca73c32346be9ae7fa35c82b5  usr/share/sugar/activities/Etoys.activity/setup.py
+99c05f81d4e9e361f452d6540796dc3b  usr/share/sugar/activities/Etoys.activity/bin/etoys-activity
+61043fcaf6643462203f8576dc36cb3f  usr/share/sugar/activities/Etoys.activity/NEWS
+0b8d5de0afbac688d1a90e72fcd0cece  usr/share/sugar/activities/Etoys.activity/activity/application-x-squeak-object.svg
+0b8d5de0afbac688d1a90e72fcd0cece  usr/share/sugar/activities/Etoys.activity/activity/application-x-squeak-project.svg
+0b8d5de0afbac688d1a90e72fcd0cece  usr/share/sugar/activities/Etoys.activity/activity/application-x-squeak-source.svg
+0b8d5de0afbac688d1a90e72fcd0cece  usr/share/sugar/activities/Etoys.activity/activity/activity-etoys.svg
+0b8d5de0afbac688d1a90e72fcd0cece  usr/share/sugar/activities/Etoys.activity/activity/application-x-squeak-image.svg
+0b8d5de0afbac688d1a90e72fcd0cece  usr/share/sugar/activities/Etoys.activity/activity/application-x-squeak-archive.svg
+6004ef6a9e311639c560f97873e794fc  usr/share/sugar/activities/Etoys.activity/activity/activity.info

@@ -13,7 +13,7 @@ XS-Python-Version: all
 
 Package: sugar-etoys-activity
 Architecture: all
-Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, etoys
 Recommends: sugar
 Provides: ${python:Provides}
 XB-Python-Version: ${python:Versions}
