@@ -1,9 +1,0 @@
-cdbs:Depends=, , python-hippocanvas, python-telepathy, python-gtk2, python-cjson 
-cdbs:Depends=, , python-hippocanvas, python-telepathy, python-gtk2, python-cjson 
-cdbs:Recommends=, sugar-0.86 | sugar-0.88 
-cdbs:Provides=, sugar-etoys-activity 
-cdbs:Replaces=, sugar-etoys-activity 
-cdbs:Conflicts=, sugar-etoys-activity 
-python:Versions=all
-python:Depends=python, python-central (>= 0.6.11)
-misc:Depends=
