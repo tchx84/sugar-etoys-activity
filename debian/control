@@ -11,8 +11,8 @@ Build-Depends: devscripts (>= 2.10.7~),
  debhelper (>= 6),
  cdbs (>= 0.4.67~),
  python-dev (>= 2.3.5-7),
- python-sugar-0.86 | python-sugar-0.88,
- python-sugar-toolkit-0.86 | python-sugar-toolkit-0.88,
+ python-sugar-0.88 | python-sugar,
+ python-sugar-toolkit-0.88 | python-sugar-toolkit,
  unzip
 Standards-Version: 3.9.0
 Vcs-Git: git://git.debian.org/collab-maint/sugar-etoys-activity.git
