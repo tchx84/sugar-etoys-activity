@@ -19,7 +19,7 @@
 # 02111-1307 USA.
 
 DEB_PYTHON_SYSTEM = pycentral
-DEB_SUGAR_BRANCHES = 0.86 0.88
+#DEB_SUGAR_BRANCHES = 0.86 0.88
 DEB_PYTHON_SUGAR_PACKAGES = sugar-etoys-activity
 
 
@@ -27,15 +27,13 @@ include /usr/share/cdbs/1/rules/utils.mk
 include /usr/share/cdbs/1/class/python-sugar.mk
 include /usr/share/cdbs/1/rules/debhelper.mk
 
-
-# Needed (always/often) at runtimeCDBS_DEPENDS = $(call cdbs_sugar_anybranchdeps,python-sugar python-sugar-toolkit)
+# We support all branches, but default to 0.88.
+CDBS_DEPENDS = python-sugar-0.88 | python-sugar, python-sugar-toolkit-0.88 | python-sugar-toolkit
 CDBS_DEPENDS += , python-hippocanvas, python-telepathy, python-gtk2, python-cjson
-CDBS_RECOMMENDS = $(call cdbs_sugar_anybranchdeps,sugar)
 
-# Ensure only one variant is installed at a time (Debian Policy 7.6.2)
-CDBS_PROVIDES = $(DEB_SUGAR_SOURCE_PKGBASE)
-CDBS_CONFLICTS = $(DEB_SUGAR_SOURCE_PKGBASE)
-CDBS_REPLACES = $(DEB_SUGAR_SOURCE_PKGBASE)
+# Override sugar listing
+CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar-0.88 | python-sugar, python-sugar-toolkit-0.88 | python-sugar-toolkit, unzip
+
 # Rules for fetching the upstream tarball
 # Define the git repo and package name.
 UPSTREAM_GIT='Tarball available'
