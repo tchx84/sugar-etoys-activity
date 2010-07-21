@@ -10,14 +10,10 @@ Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/
 
 Files: debian/*
 Copyright: © 2008-2010 Jonas Smedegaard <dr@jones.dk>
-           © 2010 Ankur khurana<ankur@seeta.in>
+           © 2010 Ankur khurana <ankur@seeta.in>
 License: GPL-2+
  The Debian packaging information is under the GPL, version 2 or later.
 
-
-Files: setup.py
-Copyright:© 2006 Red Hat, Inc
-License: GPL-2+
 
                       
 Files: *
