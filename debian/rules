@@ -36,7 +36,7 @@ CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar-0.88 | python-sugar, 
 
 # Rules for fetching the upstream tarball
 # Define the git repo and package name.
-UPSTREAM_GIT='Tarball available'
+#UPSTREAM_GIT='Tarball available'
 # TODO: Automatically figure this out from the package name
 PACKAGE_NAME=sugar-etoys-activity
 
