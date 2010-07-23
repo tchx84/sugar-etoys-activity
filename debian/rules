@@ -67,4 +67,5 @@ clean::
 	find -name *.mo -delete
 	find -name *.linfo -delete
 	find -name MANIFEST -delete
-
+install/sugar-etoys-activity::
+	rm -f debian/sugar-write-activity/usr/share/sugar/activities/Etoys.activity/COPYING
