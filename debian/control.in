@@ -16,12 +16,15 @@ Depends: ${shlibs:Depends}, ${python:Depends}, ${cdbs:Depends}, ${misc:Depends},
 Recommends: sugar
 Provides: ${python:Provides}
 XB-Python-Version: ${python:Versions}
-Description: Sugar Etoys Activity
+Description: Sugar wrapper around the Squeak Etoys programming language
  Sugar is a graphical user interface aimed at children.
  .
- Sugar is mainly used as the interface for One Laptop Per Child (OLPC)
- XO machines.
+ Originating as intregral part of the OLPC "XO" a.k.a. the $100 laptop,
+ Sugar has since grown into a more widely usable low-ressource desktop
+ environment for kids. 
  .
+ This package contains the Etoys activity.
+ . 
  Etoys is an educational tool for teaching children ideas in compelling
-  ways and a media-rich authoring environment and visual programming
- system
+ ways. It features a media-rich authoring environment and visual 
+ programming system.
