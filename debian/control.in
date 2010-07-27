@@ -2,8 +2,7 @@ Source: sugar-etoys-activity
 Section: x11
 Priority: optional
 Maintainer: Debian OLPC <debian-olpc-devel@lists.alioth.debian.org>
-Uploaders: Jonas Smedegaard <dr@jones.dk>, 
- Ankur khurana <ankur@seeta.in>
+Uploaders: Ankur khurana <ankur@seeta.in>
 Build-Depends: @cdbs@
 Standards-Version: 3.9.0
 Vcs-Git: git://git.debian.org/collab-maint/sugar-etoys-activity.git
