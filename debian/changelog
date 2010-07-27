@@ -1,5 +1,9 @@
 sugar-etoys-activity (115-1) unstable; urgency=low
 
+  [ Ankur khurana ]
   * Initial release. (Closes: #589074)
   
- -- Ankur khurana <ankur@seeta.in>  Thu, 15 Jul 2010 00:38:53 +0530
+  [ Luke Faraone ]
+  * Clean up description, copyright 
+
+ -- Luke Faraone <luke@faraone.cc>  Tue, 27 Jul 2010 16:00:21 -0400
