@@ -10,7 +10,7 @@ Build-Depends: devscripts (>= 2.10.7~),
  python-central,
  debhelper (>= 6),
  cdbs (>= 0.4.67~),
- python-dev (>= 2.3.5-7),
+ python,
  python-sugar-0.88 | python-sugar,
  python-sugar-toolkit-0.88 | python-sugar-toolkit,
  unzip
