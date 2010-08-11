@@ -5,14 +5,13 @@ Maintainer: Sugar Labs <sugar-devel@lists.sugarlabs.org>
 	irc://irc.freenode.net/sugar
 Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/
 
+Copyright: © 2006-2008, Viewpoints Research Institute, and Contributors
+License: other-X11
+
 Files: debian/*
 Copyright: © 2008-2010, Jonas Smedegaard <dr@jones.dk>
            © 2010, Ankur khurana <ankur@seeta.in>
 License: GPL-2+
-
-Files: *
-Copyright: © 2006-2008, Viewpoints Research Institute, and Contributors
-License: other-X11
 
 License: other-X11
  Permission is hereby granted, free of charge, to any person obtaining a copy
