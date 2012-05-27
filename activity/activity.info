@@ -1,6 +1,6 @@
 [Activity]
 name = Etoys
-activity_version = 115
+activity_version = 116
 host_version = 1
 bundle_id = org.vpri.EtoysActivity
 icon = activity-etoys
