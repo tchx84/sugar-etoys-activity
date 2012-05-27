@@ -6,7 +6,7 @@ Uploaders: Ankur khurana <ankur@seeta.in>,
  Jonas Smedegaard <dr@jones.dk>
  Luke Faraone <lfaraone@debian.org>
 Build-Depends: @cdbs@
-Standards-Version: 3.9.1
+Standards-Version: 3.9.3
 Vcs-Git: git://git.debian.org/collab-maint/sugar-etoys-activity.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/sugar-etoys-activity.git;a=summary
 Homepage: http://wiki.laptop.org/go/Etoys
