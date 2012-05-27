@@ -1,0 +1,3 @@
+# setup.py part of packaging format (Sugar activities by design are
+# redistributable from installed location). Python unused at runtime
+sugar-etoys-activity: python-script-but-no-python-dep usr/share/sugar/activities/Etoys.activity/setup.py
