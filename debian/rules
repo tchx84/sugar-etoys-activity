@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 # Copyright 2008, 2009, 2010, 2012 Jonas Smedegaard <dr@jones.dk>
+# Copyright 2010 Ankur khurana <ankur@seeta.in>
 # Description: Main Debian packaging script for Etoys
 #
 # This program is free software; you can redistribute it and/or
