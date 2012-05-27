@@ -30,6 +30,7 @@ include /usr/share/cdbs/1/rules/debhelper.mk
 # We support all branches, but default to 0.88.
 CDBS_DEPENDS = python-sugar-0.88 | python-sugar, python-sugar-toolkit-0.88 | python-sugar-toolkit
 CDBS_DEPENDS += , python-hippocanvas, python-telepathy, python-gtk2, python-cjson
+CDBS_DEPENDS += , sugar-presence-service-0.90
 
 # Override sugar listing
 CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar-0.88 | python-sugar, python-sugar-toolkit-0.88 | python-sugar-toolkit, unzip
