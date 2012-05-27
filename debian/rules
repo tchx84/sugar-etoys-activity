@@ -26,7 +26,7 @@ include /usr/share/cdbs/1/rules/debhelper.mk
 
 DEB_UPSTREAM_PACKAGE = Etoys
 DEB_UPSTREAM_URL = http://download.sugarlabs.org/sources/sucrose/fructose/$(DEB_UPSTREAM_PACKAGE)
-DEB_UPSTREAM_TARBALL_MD5 = 
+DEB_UPSTREAM_TARBALL_MD5 = 44673a6624aa695e661b799d2a92b522
 
 # We support all branches, but default to 0.88.
 CDBS_DEPENDS = python-sugar-0.88 | python-sugar, python-sugar-toolkit-0.88 | python-sugar-toolkit
