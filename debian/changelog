@@ -1,3 +1,42 @@
+sugar-etoys-activity (116-1) unstable; urgency=low
+
+  * New upstream release.
+    + (virtually identical to 115).
+
+  [ Luke Faraone ]
+  * Update email address for my Debian account.
+  * Correct typo in decription.
+  * Unset DMUA, I'm a DD, not a DM now.
+
+  [ Jonas Smedegaard ]
+  * Add myself as uploader.
+  * Fix depend on sugar-presence-service-0.90, with unversioned
+    sugar-presence-service as fallback.
+  * Use Python helper python2 (not python-support).
+  * Bump standards-version to 3.9.3.
+  * Use CDBS upstream-tarball.mk snippet (not custom get-orig-source
+    rules).
+  * Refer to FSF website (not postal address) in licensing header of
+    rules file.
+  * Update copyright file:
+    + Rewrite using format 1.0.
+    + Extend copyright of Debian packaging to cover recent years.
+    + Add git URL for upstream source.
+  * Include Ankur as copyright holder in rules file.
+  * Bump debhelper compatibility level to 7.
+  * Use anonscm.debian.org for Vcs-Browser field.
+  * Update README.source to document upstream-tarball.mk and not quilt.
+  * Fix stop removing MANIFEST in clean rule.
+  * Update package relations:
+    + Tighten build-dependency on cdbs and python: Needed for python2
+      helper.
+    + Stop build-depending on python-central: No longer used.
+    + Relax build-depend unversioned on debhelper and devscripts: Needed
+      versions satisfied even in oldstable.
+  * Override lintian warning about Python script unused at runtime.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 27 May 2012 19:36:07 +0200
+
 sugar-etoys-activity (115-1) unstable; urgency=low
 
   [ Ankur khurana ]

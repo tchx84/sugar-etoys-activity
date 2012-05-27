@@ -3,34 +3,30 @@ Section: contrib/x11
 Priority: optional
 Maintainer: Debian OLPC <debian-olpc-devel@lists.alioth.debian.org>
 Uploaders: Ankur khurana <ankur@seeta.in>,
- Luke Faraone <luke@faraone.cc>
-DM-Upload-Allowed: yes
-Build-Depends: devscripts (>= 2.10.7~),
- cdbs (>= 0.4.67~),
+ Jonas Smedegaard <dr@jones.dk>,
+ Luke Faraone <lfaraone@debian.org>
+Build-Depends: devscripts,
+ python (>= 2.6.5),
+ cdbs (>= 0.4.97~),
+ debhelper,
  dh-buildinfo,
- python-central,
- debhelper (>= 6),
- cdbs (>= 0.4.67~),
- python,
  python-sugar-0.88 | python-sugar,
  python-sugar-toolkit-0.88 | python-sugar-toolkit,
  unzip
-Standards-Version: 3.9.1
+Standards-Version: 3.9.3
 Vcs-Git: git://git.debian.org/collab-maint/sugar-etoys-activity.git
-Vcs-Browser: http://git.debian.org/?p=collab-maint/sugar-etoys-activity.git;a=summary
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/sugar-etoys-activity.git
 Homepage: http://wiki.laptop.org/go/Etoys
-XS-Python-Version: all
 
 Package: sugar-etoys-activity
 Architecture: all
 Depends: ${shlibs:Depends}, ${python:Depends}, ${cdbs:Depends}, ${misc:Depends}, etoys
 Recommends: sugar
 Provides: ${python:Provides}
-XB-Python-Version: ${python:Versions}
 Description: Sugar wrapper around the Squeak Etoys programming language
  Sugar is a graphical user interface aimed at children.
  .
- Originating as intregral part of the OLPC "XO" a.k.a. the $100 laptop,
+ Originating as integral part of the OLPC "XO" a.k.a. the $100 laptop,
  Sugar has since grown into a more widely usable low-ressource desktop
  environment for kids. 
  .
