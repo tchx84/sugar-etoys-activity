@@ -24,14 +24,18 @@ Depends: ${shlibs:Depends}, ${python:Depends}, ${cdbs:Depends}, ${misc:Depends},
 Recommends: sugar
 Provides: ${python:Provides}
 Description: Sugar wrapper around the Squeak Etoys programming language
- Sugar is a graphical user interface aimed at children.
+ Sugar is a desktop environment. It is conceived as a platform upon
+ which children learn with Sugar Activities. The platform provides
+ mechanisms for collaboration, reflection, and exploration. Sugar
+ Activities cover a broad range of applications: browsing, drawing,
+ composing, writing, programming, etc.
  .
- Originating as integral part of the OLPC "XO" a.k.a. the $100 laptop,
- Sugar has since grown into a more widely usable low-ressource desktop
- environment for kids. 
+ Squeak Etoys was inspired by LOGO, PARC-Smalltalk, Hypercard, and
+ starLOGO. It is a media-rich authoring environment with a simple,
+ powerful scripted object model for many kinds of objects created by
+ end-users. It includes 2D and 3D graphics, images, text, particles,
+ presentations, web-pages, videos, sound and MIDI, etc. It includes the
+ ability to share desktops with other Etoy users in real-time, so many
+ forms of immersive mentoring and play can be done over the Internet.
  .
- This package contains the Etoys activity.
- . 
- Etoys is an educational tool for teaching children ideas in compelling
- ways. It features a media-rich authoring environment and visual 
- programming system.
+ The Etoys activity embeds Squeak Etoys into Sugar.

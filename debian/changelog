@@ -1,3 +1,14 @@
+sugar-etoys-activity (116-2) unstable; urgency=low
+
+  * Simplify setting main branch.
+  * Drop lintian override: lintian is wrong to expect package
+    dependencies being explicitly declared in control file.
+  * Modernize long description, based on upstream wiki phrases.
+  * Stop removing license file from binary package: Let CDBS replace
+    with symlink instead.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 28 May 2012 18:32:03 +0200
+
 sugar-etoys-activity (116-1) unstable; urgency=low
 
   * New upstream release.
