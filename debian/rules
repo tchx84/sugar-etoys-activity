@@ -40,5 +40,3 @@ CDBS_BUILD_DEPENDS_class_python-sugar_python = python$(cdbs_python_nondefault_ve
 clean::
 	find -name *.mo -delete
 	find -name *.linfo -delete
-install/sugar-etoys-activity::
-	rm -f debian/sugar-etoys-activity/usr/share/sugar/activities/Etoys.activity/COPYING
