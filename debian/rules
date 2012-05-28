@@ -28,13 +28,12 @@ DEB_UPSTREAM_PACKAGE = Etoys
 DEB_UPSTREAM_URL = http://download.sugarlabs.org/sources/sucrose/fructose/$(DEB_UPSTREAM_PACKAGE)
 DEB_UPSTREAM_TARBALL_MD5 = 44673a6624aa695e661b799d2a92b522
 
-# We support all branches, but default to 0.88.
-CDBS_DEPENDS = python-sugar-0.88 | python-sugar, python-sugar-toolkit-0.88 | python-sugar-toolkit
+DEB_SUGAR_PRIMARY_BRANCH = 0.88
+
+CDBS_DEPENDS = $(call cdbs_sugar_anybranchdeps,python-sugar python-sugar-toolkit)
 CDBS_DEPENDS += , python-hippocanvas, python-telepathy, python-gtk2, python-cjson
 CDBS_DEPENDS += , sugar-presence-service-0.90 | sugar-presence-service
 
-# Override sugar listing
-CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar-0.88 | python-sugar, python-sugar-toolkit-0.88 | python-sugar-toolkit, unzip
 # Suppress unneeded auto-resolved build-dependency on python-dev
 CDBS_BUILD_DEPENDS_class_python-sugar_python = python$(cdbs_python_nondefault_version)
 
