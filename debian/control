@@ -20,8 +20,12 @@ Homepage: http://wiki.laptop.org/go/Etoys
 
 Package: sugar-etoys-activity
 Architecture: all
-Depends: ${shlibs:Depends}, ${python:Depends}, ${cdbs:Depends}, ${misc:Depends}, etoys
-Recommends: sugar
+Depends: ${cdbs:Depends},
+ ${misc:Depends},
+ ${python:Depends},
+ ${shlibs:Depends}
+Recommends: ${cdbs:Recommends}
+Sugests: ${cdbs:Suggests}
 Provides: ${python:Provides}
 Description: Sugar wrapper around the Squeak Etoys programming language
  Sugar is a desktop environment. It is conceived as a platform upon

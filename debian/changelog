@@ -1,3 +1,15 @@
+sugar-etoys-activity (116-3) unstable; urgency=low
+
+  * Update package relations:
+    + Set 0.88 as primary branch.
+    + Recommend sugar-session.
+    + Recommend (not depend on) sugar-presence-service.
+    + Stop bogusly depending on unused python packages (this activity is
+      written in shell!).
+    + Handle all package relations in rules file.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Mon, 28 May 2012 21:38:20 +0200
+
 sugar-etoys-activity (116-2) unstable; urgency=low
 
   * Simplify setting main branch.
