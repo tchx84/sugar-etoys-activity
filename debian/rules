@@ -39,7 +39,3 @@ CDBS_RECOMMENDS_$(pkg) += , sugar-presence-service-0.90 | sugar-presence-service
 
 # Suppress unneeded auto-resolved build-dependency on python-dev
 CDBS_BUILD_DEPENDS_class_python-sugar_python = python$(cdbs_python_nondefault_version)
-
-clean::
-	find -name *.mo -delete
-	find -name *.linfo -delete
