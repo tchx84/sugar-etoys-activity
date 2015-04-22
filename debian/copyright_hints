@@ -19,23 +19,24 @@ Files: MANIFEST
  debian/control
  debian/control.in
  debian/gbp.conf
+ debian/patches/1001_use_toolkit-gtk3.patch
+ debian/patches/README
+ debian/patches/series
  debian/source/format
- debian/sugar-etoys-activity.lintian-overrides
  debian/watch
  setup.py
 Copyright: *No copyright*
 License: UNKNOWN
  FIXME
 
-Files: debian/rules
-Copyright: 2008-2010, 2012 Jonas Smedegaard <dr@jones.dk>
-  2010, Ankur khurana <ankur@seeta.in>
-License: GPL-2+
- FIXME
-
 Files: COPYING
 Copyright: 2006-2008, Viewpoints Research Institute, and Contributors
-  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-License: MIT/X11 (BSD like)
+License: Expat
+ FIXME
+
+Files: debian/rules
+Copyright: 2010, 2012, 2015, Jonas Smedegaard <dr@jones.dk>
+  2010, Ankur khurana <ankur@seeta.in>
+License: GPL-3+
  FIXME
 

@@ -15,7 +15,6 @@ Architecture: all
 Depends: ${cdbs:Depends},
  ${misc:Depends},
  ${python:Depends}
-Recommends: ${cdbs:Recommends}
 Provides: ${python:Provides}
 Description: Etoys activity for Sugar Learning Platform
  Sugar Learning Platform promotes collaborative learning through Sugar

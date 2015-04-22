@@ -1,38 +1,38 @@
 Source: sugar-etoys-activity
 Section: contrib/x11
 Priority: optional
-Maintainer: Debian OLPC <debian-olpc-devel@lists.alioth.debian.org>
-Uploaders: Ankur khurana <ankur@seeta.in>,
- Jonas Smedegaard <dr@jones.dk>,
+Maintainer: Debian Sugar Team <pkg-sugar-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>,
  Luke Faraone <lfaraone@debian.org>
-Build-Depends: devscripts,
- python (>= 2.6.5),
- cdbs (>= 0.4.97~),
+Build-Depends: cdbs (>= 0.4.90~),
+ devscripts,
  debhelper,
  dh-buildinfo,
- python-sugar-0.88 | python-sugar,
- python-sugar-toolkit-0.88 | python-sugar-toolkit,
+ python,
+ python-sugar3,
  unzip
-Standards-Version: 3.9.3
-Vcs-Git: git://git.debian.org/collab-maint/sugar-etoys-activity.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/sugar-etoys-activity.git
-Homepage: http://wiki.laptop.org/go/Etoys
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-sugar/sugar-etoys-activity.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-sugar/sugar-etoys-activity.git
+Homepage: https://wiki.sugarlabs.org/go/Activities/Etoys
 
 Package: sugar-etoys-activity
 Architecture: all
 Depends: ${cdbs:Depends},
  ${misc:Depends},
- ${python:Depends},
- ${shlibs:Depends}
-Recommends: ${cdbs:Recommends}
-Sugests: ${cdbs:Suggests}
+ ${python:Depends}
 Provides: ${python:Provides}
-Description: Sugar wrapper around the Squeak Etoys programming language
- Sugar is a desktop environment. It is conceived as a platform upon
- which children learn with Sugar Activities. The platform provides
- mechanisms for collaboration, reflection, and exploration. Sugar
- Activities cover a broad range of applications: browsing, drawing,
- composing, writing, programming, etc.
+Description: Etoys activity for Sugar Learning Platform
+ Sugar Learning Platform promotes collaborative learning through Sugar
+ Activities that encourage critical thinking, the heart of a quality
+ education.  Designed from the ground up especially for children, Sugar
+ offers an alternative to traditional “office-desktop” software.
+ .
+ Learner applications in Sugar are called Activities.  They are software
+ packages that automatically save your work - producing specific
+ instances of the Activity that can be resumed at a later time.  Many
+ Activities support learner collaboration, where multiple learners may
+ be invited to join a collective Activity session.
  .
  Squeak Etoys was inspired by LOGO, PARC-Smalltalk, Hypercard, and
  starLOGO. It is a media-rich authoring environment with a simple,

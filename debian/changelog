@@ -1,3 +1,30 @@
+sugar-etoys-activity (116-4) unstable; urgency=medium
+
+  * Remove Ankur khurana as uploader (email bounces).
+    Thanks for your contributions, Ankur.
+  * Move packaging to Debian Sugar Team.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Drop ${shlibs:Depends} superfluous for arch-all.
+  * Rewrite README.source to emphasize that control.in file is *not* a
+    show-stopper for contributions, and refer to wiki page for details.
+  * Bump debhelper compatibility level to 8.
+  * Update Homepage.
+  * Modernize short and long description.
+  * Add patch to us sugar-toolkit-gtk3.
+  * Git-ignore quilt .pc dir, and have git-buildpackage ignore the
+    .git-ignore file.
+  * Update copyright info:
+    + Extend coverage for myself.
+    + Relicense packaging as GPL-3+.
+    + License patch dir same as upstream.
+  * Update package relations:
+    + Fix stop recommend sugar-session-* or sugar-presence-service-*.
+    + Build-depend on python-sugar3 (not python-sugar-* or
+      python-sugar-toolkit-*).
+    + Fix explicitly depend on python.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 22 Apr 2015 22:47:45 +0200
+
 sugar-etoys-activity (116-3) unstable; urgency=low
 
   * Update package relations:
