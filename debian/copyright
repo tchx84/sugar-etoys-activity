@@ -11,9 +11,9 @@ Copyright: 2006-2008, Viewpoints Research Institute, and Contributors
 License: Expat
 
 Files: debian/*
-Copyright: 2008-2010,2012, Jonas Smedegaard <dr@jones.dk>
+Copyright: 2010,2012,2015, Jonas Smedegaard <dr@jones.dk>
   2010, Ankur khurana <ankur@seeta.in>
-License: GPL-2+
+License: GPL-3+
 
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a
@@ -35,10 +35,10 @@ License: Expat
  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-License: GPL-2+
+License: GPL-3+
  This program is free software; you can redistribute it and/or modify it
  under the terms of the GNU General Public License as published by the
- Free Software Foundation; either version 2 of the License, or (at your
+ Free Software Foundation; either version 3 of the License, or (at your
  option) any later version.
  .
  This program is distributed in the hope that it will be useful, but
@@ -46,8 +46,8 @@ License: GPL-2+
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  General Public License for more details.
 Comment:
- On Debian systems the 'GNU General Public License' version 2 is located
- in '/usr/share/common-licenses/GPL-2'.
+ On Debian systems the 'GNU General Public License' version 3 is located
+ in '/usr/share/common-licenses/GPL-3'.
  .
  You should have received a copy of the 'GNU General Public License'
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
