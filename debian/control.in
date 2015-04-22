@@ -14,8 +14,7 @@ Package: sugar-etoys-activity
 Architecture: all
 Depends: ${cdbs:Depends},
  ${misc:Depends},
- ${python:Depends},
- ${shlibs:Depends}
+ ${python:Depends}
 Recommends: ${cdbs:Recommends}
 Sugests: ${cdbs:Suggests}
 Provides: ${python:Provides}
