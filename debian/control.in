@@ -18,12 +18,17 @@ Depends: ${cdbs:Depends},
 Recommends: ${cdbs:Recommends}
 Sugests: ${cdbs:Suggests}
 Provides: ${python:Provides}
-Description: Sugar wrapper around the Squeak Etoys programming language
- Sugar is a desktop environment. It is conceived as a platform upon
- which children learn with Sugar Activities. The platform provides
- mechanisms for collaboration, reflection, and exploration. Sugar
- Activities cover a broad range of applications: browsing, drawing,
- composing, writing, programming, etc.
+Description: Etoys activity for Sugar Learning Platform
+ Sugar Learning Platform promotes collaborative learning through Sugar
+ Activities that encourage critical thinking, the heart of a quality
+ education.  Designed from the ground up especially for children, Sugar
+ offers an alternative to traditional “office-desktop” software.
+ .
+ Learner applications in Sugar are called Activities.  They are software
+ packages that automatically save your work - producing specific
+ instances of the Activity that can be resumed at a later time.  Many
+ Activities support learner collaboration, where multiple learners may
+ be invited to join a collective Activity session.
  .
  Squeak Etoys was inspired by LOGO, PARC-Smalltalk, Hypercard, and
  starLOGO. It is a media-rich authoring environment with a simple,
