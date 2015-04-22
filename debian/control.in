@@ -5,7 +5,7 @@ Maintainer: Debian Sugar Team <pkg-sugar-devel@lists.alioth.debian.org>
 Uploaders: Jonas Smedegaard <dr@jones.dk>,
  Luke Faraone <lfaraone@debian.org>
 Build-Depends: @cdbs@
-Standards-Version: 3.9.3
+Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-sugar/sugar-etoys-activity.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-sugar/sugar-etoys-activity.git
 Homepage: http://wiki.laptop.org/go/Etoys
