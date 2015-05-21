@@ -30,6 +30,9 @@ DEB_UPSTREAM_PACKAGE = Etoys
 DEB_UPSTREAM_URL = http://download.sugarlabs.org/sources/sucrose/fructose/$(DEB_UPSTREAM_PACKAGE)
 DEB_UPSTREAM_TARBALL_MD5 = 44673a6624aa695e661b799d2a92b522
 
+# Exclude conflicting file from the package #783890
+DEB_DH_ALWAYS_EXCLUDE=usr/share/icons/sugar/scalable/mimetypes/application-x-squeak-project.svg
+
 # Override Sugar toolkit to use
 CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar3, unzip
 
