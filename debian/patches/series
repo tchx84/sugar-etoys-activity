@@ -1,1 +1,2 @@
 1001_use_toolkit-gtk3.patch
+1002_remove_conflicting_svg.patch
