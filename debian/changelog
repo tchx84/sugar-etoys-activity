@@ -1,8 +1,9 @@
-sugar-etoys-activity (116-4~olpc1) trusty; urgency=medium
+sugar-etoys-activity (116-5) unstable; urgency=medium
 
-  * rebuild
+  * Avoid install icons: Shipped in sugar-*-icon-theme.
+    Closes: Bug#783890. Thanks to Martin Abente.
 
- -- James Cameron <quozl@laptop.org>  Thu, 23 Apr 2015 14:41:18 +1000
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 31 May 2015 14:53:59 +0200
 
 sugar-etoys-activity (116-4) unstable; urgency=medium
 
