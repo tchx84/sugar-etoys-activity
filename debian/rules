@@ -40,3 +40,8 @@ CDBS_BUILD_DEPENDS_class_python-sugar_python = python
 depends = etoys, python
 
 CDBS_DEPENDS_$(pkg) = $(depends)
+CDBS_RECOMMENDS_$(pkg) = $(recommends)
+
+# Avoid install icons (shipped with sugar-*-icon-theme)
+install/$(pkg)::
+	rm -rf $(cdbs_curdestdir)usr/share/icons
