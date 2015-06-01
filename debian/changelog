@@ -1,3 +1,9 @@
+sugar-etoys-activity (116-4~olpc1) trusty; urgency=medium
+
+  * rebuild
+
+ -- James Cameron <quozl@laptop.org>  Thu, 23 Apr 2015 14:41:18 +1000
+
 sugar-etoys-activity (116-4) unstable; urgency=medium
 
   * Remove Ankur khurana as uploader (email bounces).
