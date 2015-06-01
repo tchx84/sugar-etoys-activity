@@ -1,3 +1,9 @@
+sugar-etoys-activity (116-5~quozl1) trusty; urgency=medium
+
+  * rebuild
+
+ -- James Cameron <quozl@laptop.org>  Mon, 01 Jun 2015 12:32:53 +1000
+
 sugar-etoys-activity (116-5) unstable; urgency=medium
 
   * Avoid install icons: Shipped in sugar-*-icon-theme.
