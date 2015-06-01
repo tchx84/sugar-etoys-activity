@@ -33,7 +33,15 @@ DEB_UPSTREAM_TARBALL_MD5 = 44673a6624aa695e661b799d2a92b522
 # Override Sugar toolkit to use
 CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar3, unzip
 
-CDBS_DEPENDS_$(pkg) = etoys, python
-
 # Suppress unneeded auto-resolved build-dependency on python-dev
 CDBS_BUILD_DEPENDS_class_python-sugar_python = python
+
+# Needed (always) at runtime
+depends = etoys, python
+
+CDBS_DEPENDS_$(pkg) = $(depends)
+CDBS_RECOMMENDS_$(pkg) = $(recommends)
+
+# Avoid install icons (shipped with sugar-*-icon-theme)
+install/$(pkg)::
+	rm -rf $(cdbs_curdestdir)usr/share/icons

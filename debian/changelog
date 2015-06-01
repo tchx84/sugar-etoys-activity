@@ -1,3 +1,16 @@
+sugar-etoys-activity (116-5~quozl1) trusty; urgency=medium
+
+  * rebuild
+
+ -- James Cameron <quozl@laptop.org>  Mon, 01 Jun 2015 12:32:53 +1000
+
+sugar-etoys-activity (116-5) unstable; urgency=medium
+
+  * Avoid install icons: Shipped in sugar-*-icon-theme.
+    Closes: Bug#783890. Thanks to Martin Abente.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 31 May 2015 14:53:59 +0200
+
 sugar-etoys-activity (116-4) unstable; urgency=medium
 
   * Remove Ankur khurana as uploader (email bounces).
